@@ -2,13 +2,14 @@
 
 Link: https://cristian-tr.github.io/Chatbot-consultant/ 
 
-Proiect dezvoltat pentru explorarea conceptului Enhanced HTML ca metodă de creștere a implicării elevilor în mediul educațional.
+Concept de promovare a manualelor digitale interactive (Enhanced HTML5) dezvoltat pentru demonstrarea metodelor moderne de creștere a implicării (engagement-ului) elevilor prin elemente multimedia și evaluare formativă în timp real.
+
 
 📈 Rezultate Audit Lighthouse
 
-🖥️ DESKTOP: Performance: 100 | Accesibility: 100 | Best practices: 100 | SEO: 100
+🖥️ DESKTOP: Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
-📱 MOBILE:  Performance: 100 | Accesibility: 100 | Best practices: 100 | SEO: 100
+📱 MOBILE:  Performance: 62 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
 🛠️ Tehnologii Utilizate
 HTML5 & CSS3 (Custom styling & Bootstrap 5) 🎨
