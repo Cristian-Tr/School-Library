@@ -1,2 +1,30 @@
-# School-Library
-Biblioteca elevilor
+🤖 Chatbot Consultant - Landing Page
+
+Link: https://cristian-tr.github.io/Chatbot-consultant/ 
+
+Concept de promovare a manualelor digitale interactive (Enhanced HTML5) dezvoltat pentru demonstrarea metodelor moderne de creștere a implicării (engagement-ului) elevilor prin elemente multimedia și evaluare formativă în timp real.
+
+
+📈 Rezultate Audit Lighthouse
+
+🖥️ DESKTOP: Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
+
+📱 MOBILE:  Performance: 62 | Accesibility: 100 | Best practices: 100 | SEO: 100
+
+🛠️ Tehnologii Utilizate
+HTML5 & CSS3 (Custom styling & Bootstrap 5) 🎨
+JavaScript (Interacțiuni și funcționalități UI) ⚡
+GIMP (Prelucrare imagini in format .webp) 🖌️
+Dev Tools (Audit și optimizare) 📊
+
+🖥️>💻>📱 Responsive web design (RWD): Am proiectat un design adaptabil pe orice dispozitiv.
+
+Testat pe modurile white/dark pe mai multe browser-e bazate pe Chromium engine.
+
+🖼️ Imagini de Nouă Generație: Toate resursele grafice au fost convertite în format WebP pentru o încărcare instantanee, reducând dimensiunea fișierelor cu peste 80%.
+
+⚡ LCP & FCP Optimization: Am implementat fetchpriority="high" și preload pentru elementele critice (LCP), asigurând o experiență de utilizare fluidă.
+
+📏 Stabilitate Vizuală (CLS 0): Am eliminat orice salt vizual al elementelor prin definirea strictă a dimensiunilor imaginilor și optimizarea layout-ului.
+
+
