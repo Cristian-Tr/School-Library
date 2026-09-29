@@ -1,7 +1,7 @@
 📚 School Library - Landing Page
 Biblioteca elevilor
 
-🔗 Link: https://cristian-tr.github.io/Chatbot-consultant/ 
+🔗 Link - https://cristian-tr.github.io/School-Library/
 
 📖 Proiect dezvoltat pentru explorarea conceptului Enhanced HTML ca metodă de creștere a implicării elevilor în mediul educațional.
 
