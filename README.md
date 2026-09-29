@@ -6,9 +6,9 @@ Proiect dezvoltat pentru explorarea conceptului Enhanced HTML ca metodă de cre�
 
 📈 Rezultate Audit Lighthouse
 
-🖥️ DESKTOP: Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
+🖥️ DESKTOP: Performance: 100 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
-📱 MOBILE:  Performance: 62 | Accesibility: 100 | Best practices: 100 | SEO: 100
+📱 MOBILE:  Performance: 100 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
 🛠️ Tehnologii Utilizate
 HTML5 & CSS3 (Custom styling & Bootstrap 5) 🎨
