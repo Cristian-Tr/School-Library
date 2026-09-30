@@ -55,7 +55,7 @@ body {
 
 h1,
 h2 {
-  color: #2c3e50;
+  color: royalblue;
   margin-bottom: 1px;
   text-align: center;
   padding-bottom: 8px;
@@ -481,23 +481,27 @@ h2 {
   content: '';
   position: absolute;
   width: 100%;
-  height: 450%;
+  height: 1000%;
   background: conic-gradient(transparent,
       cyan,
       transparent,
       magenta,
       transparent,
       cyan);
-  animation: rotateLight 3s linear infinite;
+  animation: rotateLight 8s linear infinite;
 }
 
 .animated-linkedin-btn::after {
   content: '';
   position: absolute;
   inset: 3px;
-  background: white;
+  background: transparent;
   border-radius: 8px;
-  text-shadow: 1px 1px 0px #000;
+  text-shadow: .8px .8px .8px #000;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 1),
+      inset 0 0.25em 0.3em rgba(255, 255, 255, 0.35),
+      inset 0 -0.25em 0.3em rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .btn-content {
@@ -509,6 +513,7 @@ h2 {
   width: 100%;
   padding: 0 8px;
   gap: 8px;
+  
 }
 
 @keyframes rotateLight {
@@ -544,8 +549,8 @@ h2 {
   text-align: center;
   font-size: 1.25rem;
   font-weight: 800;
-  text-shadow: .1px .1px .1px black;
-  color: royalblue;
+  text-shadow: 1px 1px 1px black;
+  color: white;
   padding: 1px;
   margin: auto;
 }
