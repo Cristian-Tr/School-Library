@@ -494,7 +494,7 @@ h2 {
 .animated-linkedin-btn::after {
   content: '';
   position: absolute;
-  inset: 1px;
+  inset: 3px;
   background: white;
   border-radius: 8px;
   text-shadow: 1px 1px 0px #000;
@@ -505,7 +505,7 @@ h2 {
   z-index: 8;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   padding: 0 8px;
   gap: 8px;
@@ -539,19 +539,15 @@ h2 {
   flex-shrink: 0;
 }
 
-.text-group {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  line-height: 1.25;
-}
 
 .btn-title {
+  text-align: center;
   font-size: 1.25rem;
   font-weight: 800;
   text-shadow: .1px .1px .1px black;
   color: royalblue;
-  padding-top: 3px;
+  padding: 1px;
+  margin: auto;
 }
 
 /* TEXT ANIMAT SVG */

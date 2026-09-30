@@ -1,18 +1,18 @@
-📚 School Library - Landing Page
-Biblioteca elevilor
+📚 SCHOOL LIBRARY - BIBLIOTECA ELEVILOR
 
-🔗 Link - https://cristian-tr.github.io/School-Library/
+🔗 Link: http://127.0.0.1:5500/index.html
 
-📖 Proiect dezvoltat pentru explorarea conceptului Enhanced HTML ca metodă de creștere a implicării elevilor în mediul educațional.
+📖 Concept de promovare a manualelor digitale interactive (Enhanced HTML5) dezvoltat pentru demonstrarea metodelor moderne de creștere a implicării (engagement-ului) elevilor prin elemente multimedia și evaluare formativă în timp real.
+
 
 📈 Rezultate Audit Lighthouse
 
 🖥️ DESKTOP: Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
-📱 MOBILE:  Performance: 62 | Accesibility: 100 | Best practices: 100 | SEO: 100
+📱 MOBILE:  Performance: 98 | Accesibility: 100 | Best practices: 100 | SEO: 100
 
 🛠️ Tehnologii Utilizate
-HTML5 & CSS3 (Custom styling & Bootstrap 5) 🎨
+HTML5 & CSS3 (Custom styling) 🎨
 JavaScript (Interacțiuni și funcționalități UI) ⚡
 GIMP (Prelucrare imagini in format .webp) 🖌️
 Dev Tools (Audit și optimizare) 📊
