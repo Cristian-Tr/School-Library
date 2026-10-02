@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
     // 4. OPTIUNI QUIZ
     const quizButtons = document.querySelectorAll('.quiz-btn');
     quizButtons.forEach(btn => {

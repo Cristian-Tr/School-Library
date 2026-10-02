@@ -47,7 +47,6 @@ body {
   animation: fadeInEfect 1s ease-out;
 }
 
-
 h1,
 h2 {
   text-align: center;
@@ -103,7 +102,6 @@ h3 {
 }
 
 /* TEXT ANIMAT SVG */
-
 .text-animation {
   fill: transparent;
   stroke-width: 1;
@@ -290,7 +288,6 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
-
 
 /* ============================================================
    MODAL
@@ -492,8 +489,6 @@ margin: auto;
     grid-template-columns: 1fr;
   }
 }
-
-
 
 /* ============================================================
    FOOTER
