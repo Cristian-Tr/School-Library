@@ -2,7 +2,7 @@
 
 🔗 Link: http://127.0.0.1:5500/index.html
 
-📖 Concept de promovare a manualelor digitale interactive (Enhanced HTML5) dezvoltat pentru demonstrarea metodelor moderne de creștere a implicării (engagement-ului) elevilor prin elemente multimedia și evaluare formativă în timp real.
+📖 Proiect dezvoltat pentru explorarea conceptului de manuale digitale care pot determina elevii să se implice proactiv în activitățile educaționale.
 
 
 📈 Rezultate Audit Lighthouse
