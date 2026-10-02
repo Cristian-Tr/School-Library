@@ -10,9 +10,12 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  color: #212529;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Blocare inversare culori de catre browser */
@@ -44,21 +47,15 @@ body {
   animation: fadeInEfect 1s ease-out;
 }
 
-body {
-  background: #f4f7f6;
-  color: #333;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 h1,
 h2 {
-  color: royalblue;
-  margin-bottom: 1px;
   text-align: center;
-  padding-bottom: 8px;
+  color: royalblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
 }
 
 h3 {
@@ -95,6 +92,50 @@ h3 {
 
 }
 
+/* Stil foto */
+.my-image {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid cyan;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* TEXT ANIMAT SVG */
+
+.text-animation {
+  fill: transparent;
+  stroke-width: 1;
+  stroke: black;
+  stroke-dasharray: 250 50;
+  animation: colorRotation 8s linear infinite;
+}
+
+@keyframes colorRotation {
+  0% {
+    stroke: black;
+    stroke-dashoffset: 1000;
+  }
+
+  35% {
+    stroke: cyan;
+  }
+
+  75% {
+    stroke: cyan;
+  }
+
+  75.1% {
+    stroke: black;
+  }
+
+  100% {
+    stroke: black;
+    stroke-dashoffset: 0;
+  }
+}
+
 /* ============================================================
    RAFTURI CU CĂRȚI
    ============================================================ */
@@ -105,14 +146,14 @@ h3 {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  gap: 71px;
+  gap: 35px;
 }
 
 .shelf {
   background: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(17px);
   -webkit-backdrop-filter: blur(17px);
-  padding: 20px 20px 0 20px;
+  padding: 8px 8px 0 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   position: relative;
   border-bottom: 16px solid #8d6e63;
@@ -191,7 +232,7 @@ h3 {
 }
 
 .book.informatica {
-  background: linear-gradient(135deg, gray, lightgray);
+  background: linear-gradient(135deg, rgb(25, 140, 255), rgb(146, 198, 250));
 }
 
 .book.logică {
@@ -286,19 +327,26 @@ h3 {
 }
 
 .pdf-header {
-  background: #2c3e50;
+  background: orange;
   color: white;
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+}
+
+#modalBookTitle {
+text-align: center;
+margin: auto;
 }
 
 .close-btn {
   background: none;
   border: none;
-  color: white;
-  font-size: 1.5rem;
+  color: red;
+  font-size: 3.5rem;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -319,7 +367,7 @@ h3 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 8px;
   border: 1px solid #e0e0e0;
 }
 
@@ -425,14 +473,14 @@ h3 {
 @media (max-width: 1024px) {
   .books-grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    gap: 17px;
   }
 }
 
 @media (max-width: 600px) {
   .books-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 17px;
   }
 
   .book {
@@ -454,7 +502,7 @@ h3 {
   width: 100%;
   max-width: 1200px;
   margin: 8px auto;
-  padding: 30px 20px;
+  padding: 35px 1px;
   border-top: 2px solid #e2e8f0;
   color: #4a5568;
 }
@@ -471,13 +519,12 @@ h3 {
 .educational-games {
   display: flex;
   justify-content: center;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin: 17px 0;
 }
 
 .educational-games-btn {
   position: relative;
-  width: 287px;
+  width: 305px;
   height: 44px;
   display: flex;
   justify-content: center;
@@ -513,22 +560,11 @@ h3 {
   border-radius: 0px;
   text-shadow: .8px .8px .8px #000;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 1),
-      inset 0 0.25em 0.3em rgba(255, 255, 255, 0.35),
-      inset 0 -0.25em 0.3em rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+    inset 0 0.25em 0.3em rgba(255, 255, 255, 0.35),
+    inset 0 -0.25em 0.3em rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
-.btn-content {
-  position: relative;
-  z-index: 8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 0 8px;
-  gap: 8px;
-  
-}
 .educational-games-btn:hover {
   transform: scale(1.03);
 }
@@ -547,57 +583,17 @@ h3 {
   }
 }
 
-/* Stil foto */
-.my-image {
-  width: 33px;
-  height: 33px;
-  border-radius: 50%;
-  border: 1px solid cyan;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-
-.btn-title {
+.btn-content {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 305px;
   text-align: center;
   font-size: 1.25rem;
   font-weight: 800;
   text-shadow: 1px 1px 1px black;
   color: white;
-  padding: 1px;
-  margin: auto;
-}
-
-/* TEXT ANIMAT SVG */
-
-.text-animation {
-  fill: transparent;
-  stroke-width: 1;
-  stroke: black;
-  stroke-dasharray: 250 50;
-  animation: colorRotation 8s linear infinite;
-}
-
-@keyframes colorRotation {
-  0% {
-    stroke: black;
-    stroke-dashoffset: 1000;
-  }
-
-  35% {
-    stroke: cyan;
-  }
-
-  75% {
-    stroke: cyan;
-  }
-
-  75.1% {
-    stroke: black;
-  }
-
-  100% {
-    stroke: black;
-    stroke-dashoffset: 0;
-  }
+  padding-bottom: 4px;
 }

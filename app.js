@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     books.forEach(book => {
         book.addEventListener('click', function () {
             const title = this.getAttribute('data-title');
-            modalTitle.innerText = "Manual Interactiv de " + title + " (Format HTML5/Enhanced)";
+            modalTitle.innerHTML = `Manual Interactiv de ${title}<br>(HTML5/Enhanced)`;
             modal.classList.add('active');
             quizFeedback.innerText = '';
         });
