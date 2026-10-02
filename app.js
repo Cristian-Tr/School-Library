@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const isCorrect = this.getAttribute('data-correct') === 'true';
             if (isCorrect) {
                 quizFeedback.innerHTML = "🎉 Corect! Acest element JS demonstrează conceptul de evaluare formativă în timp real.";
-                quizFeedback.style.color = "#27ae60";
+                quizFeedback.style.color = "springgreen";
             } else {
-                quizFeedback.innerHTML = "❌ Mai încearcă! Analizează din nou clipul video din stânga.";
-                quizFeedback.style.color = "#c0392b";
+                quizFeedback.innerHTML = "❌ Incorect! Analizează din nou informațiile din pagina anterioară.";
+                quizFeedback.style.color = "red";
             }
         });
     });
