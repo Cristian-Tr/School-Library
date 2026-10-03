@@ -466,6 +466,7 @@ margin: auto;
   display: flex;
   justify-content: center;
   margin: 17px 0;
+  border-radius: 8px;
 }
 
 .educational-games-btn {
@@ -480,6 +481,7 @@ margin: auto;
   text-decoration: none !important;
   border-radius: 0;
   overflow: hidden;
+  border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
@@ -489,6 +491,7 @@ margin: auto;
   position: absolute;
   width: 100%;
   height: 1000%;
+  border-radius: 8px;
   background: conic-gradient(transparent,
       cyan,
       transparent,
@@ -503,7 +506,7 @@ margin: auto;
   position: absolute;
   inset: 3px;
   background: transparent;
-  border-radius: 0px;
+border-radius: 8px;
   text-shadow: .8px .8px .8px #000;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 1),
     inset 0 0.25em 0.3em rgba(255, 255, 255, 0.35),
